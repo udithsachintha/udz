@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  background-image: url(../img/background.png);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}
+
+/* .bg {
+  /* The image used 
+  background-image: url(../img/background.png);
+
+  /* height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  
+  min-width: 100%;
+  min-height: 100%;
+}*/
+.navbar
+{
+    background-color: transparent;
+    margin-top: 15px;;
+}
+.btn-primary1 {
+    color: #fff;
+    background-color: #44719d;
+    margin-left: 45px;
+}
+.btn-sm {
+    padding: .25rem .5rem;
+font-size: 17px;
+    line-height: 1.5;
+    border-radius: 20.2rem;
+    margin-left: 45px;
+}
+.aspace{
+    margin-left: 45px;
+
+}
+
+.btn-transparent {
+    background: transparent;
+    color: #44719d;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid #44719d;
+}
+
+.btn-transparent:hover {
+        color: skyblue;
+        background-color: rgba(255,255,255,0.2);
+}
+.btnrr{
+font-size: 14px;
+    border-radius: 20px;
+        margin-left: 45px;
+
+}
+.img_middle{
+margin-top: 60px;
+    z-index: 1;
+   
+} 
+.heading1{
+    margin-top: 10px;
+    letter-spacing: 3px;
+text-transform: uppercase;
+/* Text style for "LET’S GO T" */
+color: #233c58;
+font-family: 'Anton', sans-serif;
+font-size: 54px;
+font-weight: bold; 
+}
+
+.para1{
+    margin-top: 10px;
+
+    color: #44719d;
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 300;
+}
+.textarea{
+    margin-top: 70px;
+}
+
+@media (max-width: 420px){
+    .img_middle{
+        display: none;
+    }
+}
